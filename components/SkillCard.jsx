@@ -17,4 +17,4 @@ const SkillCard = ({ imageURL, title, frameworks }) => {
     )
 }
 
-export default SkillCard
+export default SkillCard;

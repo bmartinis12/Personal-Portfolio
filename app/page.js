@@ -11,6 +11,7 @@ export default function Home() {
         <HeroSection />
         <SpaceDecoration imgURL='/assets/images/satellite.png' />
         <AboutSection />
+        <SpaceDecoration imgURL='/assets/images/spaceship.png' />
         <SkillsSection />
         <SpaceDecoration imgURL='/assets/images/meteor.png' />
         <ProjectsSection />

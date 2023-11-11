@@ -50,7 +50,7 @@ const aboutInformation = [
 const AboutSection = () => {
     return (
         <section id="about" className="text-white my-[20vh] lg:my-[50vh]">
-            <h3 className="font-bold text-3xl md:text-4xl lg:text-6xl text-center">About Me</h3>
+            <h3 className="font-bold mb-6 text-3xl md:text-4xl lg:text-6xl text-center">About Me</h3>
             <div className="flex flex-col gap-y-8 my-10">
                 {aboutInformation.map((info) => (
                     <div key={info.title} className="grid-cols-1 flex">

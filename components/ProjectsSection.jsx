@@ -121,7 +121,7 @@ const ProjectsSection = () => {
                 <ProjectTag onClick={handleTagChange} name='Newest' isSelected={selectedButton === 'Newest'} />
                 <ProjectTag onClick={handleTagChange} name='Favorite' isSelected={selectedButton === 'Favorite'} />
             </div>
-            <ul ref={ref} className="my-10 grid md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12">
+            <ul ref={ref} className="my-10 grid md:grid-cols-2 xl:grid-cols-3 gap-10 md:gap-12">
                 {filteredProjects.map((project, index) => (
                     <motion.li variants={cardVariants} initial='initial' animate={isInView ? 'animate' : 'initial'} transition={{ duration: 0.3, delay: index * 0.6 }} key={index}>
                         <ProjectCard key={project.id} title={project.title} description={project.description} imgURL={project.imgURL} codeURL={project.codeURL} appURL={project.appURL} tags={project.tags} loginInfo={project?.loginInfo} />

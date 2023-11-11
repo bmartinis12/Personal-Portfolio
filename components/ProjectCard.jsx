@@ -4,7 +4,7 @@ import Link from "next/link"
 const ProjectCard = ({ imgURL, title, description, codeURL, appURL, tags, loginInfo }) => {
 
     return (
-        <div className="shadow-md shadow-secondary">
+        <div>
             <div className="h-52 w-full md:h-72 rounded-t-xl relative group" style={{ background: `url(${imgURL})`, backgroundSize: 'cover' }} >
                 <div className="overlay items-center justify-center gap-x-6 absolute top-0 right-0 w-full h-full bg-secondary bg-opacity-0 hidden group-hover:bg-opacity-80 group-hover:flex transition-all duration-500">
                     <Link href={codeURL} target="_blank" className="h-14 w-14 border-2 relative rounded-full border-primary border-dotted hover:border-text group/link">

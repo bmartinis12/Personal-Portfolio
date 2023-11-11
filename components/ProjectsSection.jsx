@@ -31,7 +31,7 @@ const projectsData = [
         id: 3,
         title: 'Film Finder',
         description: 'This is a web application that allows users to search for movies or tv shows, save films, and leave reviews!',
-        imgURL: '/assets/images/projects/FilmFinder.png',
+        imgURL: '/assets/images/projects/FIlmFinder.png',
         codeURL: 'https://github.com/bmartinis12/Film-Finder-Client',
         appURL: 'https://roaring-rugelach-707508.netlify.app/',
         tags: ['React', 'SASS', 'Express', 'MongoDB', 'Redux'],

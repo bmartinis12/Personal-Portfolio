@@ -3,6 +3,9 @@ import { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard"
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
+import Image from "next/image";
+import Link from "next/link";
+
 
 const projectsData = [
     {
@@ -123,11 +126,24 @@ const ProjectsSection = () => {
             </div>
             <ul ref={ref} className="my-10 grid md:grid-cols-2 xl:grid-cols-3 gap-10 md:gap-12">
                 {filteredProjects.map((project, index) => (
-                    <motion.li variants={cardVariants} initial='initial' animate={isInView ? 'animate' : 'initial'} transition={{ duration: 0.3, delay: index * 0.6 }} key={index}>
+                    <motion.li variants={cardVariants} initial='initial' animate={isInView ? 'animate' : 'initial'} transition={{ duration: 0.3, delay: index * 0.4 }} key={index}>
                         <ProjectCard key={project.id} title={project.title} description={project.description} imgURL={project.imgURL} codeURL={project.codeURL} appURL={project.appURL} tags={project.tags} loginInfo={project?.loginInfo} />
                     </motion.li>
                 ))}
             </ul>
+            <motion.div initial={{ scale: 0.5, opacity: 0 }} animate={isInView ? { scale: 1, opacity: 1 } : { scale: 0.5, opacity: 0 }} transition={{ duration: 0.5, delay: 4 }} className="mt-6 flex flex-col items-center gap-y-6">
+                <h5 className="text-text text-xl md:text-2xl font-semibold">More of My Projects:</h5>
+                <div className="flex flex-col sm:flex-row gap-6 w-3/4 sm:w-auto">
+                    <Link href="https://replit.com/@BenM30" target="_blank" className="bg-accent px-6 py-4 rounded-full shadow-md shadow-secondary hover:bg-blue-400 flex justify-center items-center gap-x-1 sm:gap-x-2 sm:w-[200px]" >
+                        <Image src='/assets/images/replitLogo.png' alt="replit" width={30} height={30} />
+                        <p className="text-text text-lg md:text-xl">Replit</p>
+                    </Link >
+                    <Link href="https://codepen.io/BenjaminMartinis" target="_blank" className="bg-accent px-6 py-4 rounded-full shadow-md shadow-secondary hover:bg-blue-400 flex justify-center items-center gap-x-1 sm:gap-x-2 sm:w-[200px]" >
+                        <Image src='/assets/images/codePenLogo.png' alt="codePen" width={30} height={30} />
+                        <p className="text-text text-lg md:text-xl">CodePen</p>
+                    </Link >
+                </div>
+            </motion.div>
         </section>
     )
 }

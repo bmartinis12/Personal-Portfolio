@@ -31,7 +31,7 @@ const skills = [
 const SkillSlider = () => {
     return (
         <div>
-            <Carousel showThumbs={false} transitionTime={1000} infiniteLoop showArrows={true} showStatus={false} showIndicators={false} >
+            <Carousel showThumbs={false} transitionTime={1000} autoPlay={true} interval={3000} infiniteLoop showArrows={true} showStatus={false} showIndicators={false} >
                 {skills.map((skill) => (
                     <SkillCard key={skill.title} title={skill.title} frameworks={skill.framework} imageURL={skill.imageURL} />
                 ))}

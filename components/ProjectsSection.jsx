@@ -98,7 +98,7 @@ const projectsData = [
         imgURL: '/assets/images/projects/WaveLink.png',
         codeURL: 'https://github.com/bmartinis12/WaveLink',
         appURL: 'https://wave-link.vercel.app/',
-        tags: ['Express', 'Next', 'SCSS', 'SQL', 'React', 'Sockets'],
+        tags: ['Express', 'Next', 'Tailwind CSS', 'SQL', 'React', 'Sockets'],
         date: new Date("2023-11-24"),
     }
 ]

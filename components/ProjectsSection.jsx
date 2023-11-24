@@ -90,6 +90,16 @@ const projectsData = [
         appURL: 'https://image-searcher.adaptable.app/',
         tags: ['Express', 'Pure JS', 'CSS', 'MongoDB'],
         date: new Date("2023-07-28"),
+    },
+    {
+        id: 9,
+        title: 'WaveLink',
+        description: 'A messaging application that allows users to send messages, pictures, and voice notes in real time to other user!',
+        imgURL: '/assets/images/projects/WaveLink.png',
+        codeURL: 'https://github.com/bmartinis12/WaveLink',
+        appURL: 'https://wave-link.vercel.app/',
+        tags: ['Express', 'Next', 'SCSS', 'SQL', 'React', 'Sockets'],
+        date: new Date("2023-11-24"),
     }
 ]
 

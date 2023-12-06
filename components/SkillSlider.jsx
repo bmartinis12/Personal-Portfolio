@@ -13,7 +13,7 @@ const skills = [
     {
         title: 'JavaScript',
         imageURL: '/assets/images/Ufo2.png',
-        framework: ['Express.js', 'Next.js', 'React', 'Redux', 'jQuery', 'EJS']
+        framework: ['TypeScript', 'Express.js', 'Next.js', 'React', 'Redux', 'jQuery', 'EJS']
     },
     {
         title: 'Python',

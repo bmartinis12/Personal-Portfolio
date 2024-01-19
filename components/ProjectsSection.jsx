@@ -43,6 +43,16 @@ const projectsData = [
     },
     {
         id: 4,
+        title: 'GuardianEye Ai',
+        description: 'THis is an AI powered desktop security camera that detects when a person enters the frame and records!',
+        imgURL: '/assets/images/projects/GuardianEye.png',
+        codeURL: 'https://github.com/bmartinis12/GuardianEye',
+        appURL: 'https://guardianeye-ai.vercel.app/',
+        tags: ['React', 'Next', 'Tailwind', 'Tensorflow'],
+        date: new Date("2024-01-19"),
+    },
+    {
+        id: 5,
         title: 'Trackazon',
         description: 'A saas application that allows you to track the price of an Amazon product and recieve emails when its price is lowered or when other events occur!',
         imgURL: '/assets/images/projects/Trackazon.png',
@@ -52,7 +62,7 @@ const projectsData = [
         date: new Date("2023-10-26"),
     },
     {
-        id: 5,
+        id: 6,
         title: 'HippoExchange',
         description: 'A digital marketplace to buy and sell UI kits and icon sets!',
         imgURL: '/assets/images/projects/HippoExchange.png',
@@ -62,7 +72,7 @@ const projectsData = [
         date: new Date("2024-01-16"),
     },
     {
-        id: 6,
+        id: 7,
         title: 'Let\'s Travel',
         description: 'A travel blog website that allows you to add and edit posts from the admin screen!',
         imgURL: '/assets/images/projects/LetsTravel.png',
@@ -72,7 +82,7 @@ const projectsData = [
         date: new Date("2023-07-01"),
     },
     {
-        id: 7,
+        id: 8,
         title: 'WaveLink',
         description: 'A messaging application that allows users to send messages, pictures, and voice notes in real time to other user!',
         imgURL: '/assets/images/projects/WaveLink.png',
@@ -82,7 +92,7 @@ const projectsData = [
         date: new Date("2023-11-24"),
     },
     {
-        id: 8,
+        id: 9,
         title: 'Recipe Finder',
         description: 'A web application that allows users to find recipes via search queries such as the main ingredient, category, area, or random!',
         imgURL: '/assets/images/projects/RecipeFinder.png',
@@ -92,7 +102,7 @@ const projectsData = [
         date: new Date("2023-08-09"),
     },
     {
-        id: 9,
+        id: 10,
         title: 'Twitch Board',
         description: 'A web application that uses that twitch api to show users the top games, top streams, and allows users to search for channels!',
         imgURL: '/assets/images/projects/TwitchBoard.png',
@@ -102,7 +112,7 @@ const projectsData = [
         date: new Date("2023-07-25"),
     },
     {
-        id: 10,
+        id: 11,
         title: 'Image Searcher',
         description: 'A web application that uses the unsplash api to show images relating to the users query search!',
         imgURL: '/assets/images/projects/ImageSearcher.png',

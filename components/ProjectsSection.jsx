@@ -44,7 +44,7 @@ const projectsData = [
     {
         id: 4,
         title: 'GuardianEye Ai',
-        description: 'THis is an AI powered desktop security camera that detects when a person enters the frame and records!',
+        description: 'This is an AI powered desktop security camera that detects when a person enters the frame and records!',
         imgURL: '/assets/images/projects/GuardianEye.png',
         codeURL: 'https://github.com/bmartinis12/GuardianEye',
         appURL: 'https://guardianeye-ai.vercel.app/',
